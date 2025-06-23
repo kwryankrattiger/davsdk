@@ -12,21 +12,21 @@ spack:
   include:
   # Include the DAV SDK package configs
   # These specify the constraints defined by the DAV SDK
-  - $spack/../davsdk/spack/configs/packages.yaml
+  - ../packages.yaml
 
- specs:
-  # I/O
-  - adios2
-  - parallel-netcdf
-  - hdf5
-  - hdf5-vol-async
-  - hdf5-vol-cache
-  - hdf5-vol-log
+  specs:
+   # I/O
+   - adios2
+   - parallel-netcdf
+   - hdf5
+   - hdf5-vol-async
+   - hdf5-vol-cache
+   - hdf5-vol-log
 
-  # Compression
-  - zfp
+   # Compression
+   - zfp
 
-  # Visualization
-  - ascent
-  - paraview
-  - vtk-m
+   # Visualization
+   - ascent
+   - paraview
+   - vtk-m
